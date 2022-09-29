@@ -20,6 +20,14 @@ public class ContaBanco {
 
     }
 
+    public void dados(){
+        System.out.println(getDono());
+        System.out.println(getNumConta());
+        System.out.println(getTipo());
+        System.out.println(getSaldo());
+        System.out.println(isStatus());
+    }
+
     public void fecharConta(){
 
         if(this.getSaldo() > 0){
